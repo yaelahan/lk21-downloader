@@ -6,7 +6,7 @@ Simple tool to get link download from lk21/dunia21
 
 ## Installation
 ```
-$ git clone https://github.com/yaelahan/get-cookies-instagram && cd get-cookies-instagram
+$ git clone https://github.com/yaelahan/lk21-downloader && cd lk21-downloader
 $ npm install
 ```
 ## Usage
