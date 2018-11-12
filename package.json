@@ -1,0 +1,34 @@
+{
+  "name": "lk21",
+  "version": "1.0.0",
+  "description": "lk21 downloader",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yaelahan",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "inquirer": "^6.2.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaelahan/lk21-downloader.git"
+  },
+  "keywords": [
+    "Simple",
+    "tool",
+    "to",
+    "get",
+    "link",
+    "download",
+    "from",
+    "lk21/dunia21"
+  ],
+  "bugs": {
+    "url": "https://github.com/yaelahan/lk21-downloader/issues"
+  },
+  "homepage": "https://github.com/yaelahan/lk21-downloader#readme"
+}
