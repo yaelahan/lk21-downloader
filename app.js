@@ -3,7 +3,7 @@ const inquirer = require('inquirer');
 
 const getList = async (kw) => {
     try {
-        let r = await axios.get(`https://search.dunia21.net/?s=${kw}`);
+        let r = await axios.get(`http://149.56.24.226//?s=${kw}`);
         return await r.data.results;
     } catch (err) {
         return await err.response.data;
@@ -13,11 +13,11 @@ const getList = async (kw) => {
 const getLink = async (slug) => {
     try {
         let r = await axios({
-            url: `https://dl.layarkaca21.vip/verifying.php?slug=${slug}`, 
+            url: `https://asdahsdkjajslkfbkaujsgfbjaeghfyjj76e8637e68723rhbfajkl.akurat.co/verifying.php?slug=${slug}`, 
             data : {slug: slug}, 
             headers: {
-                'origin': 'https://dl.layarkaca21.vip',
-                'referer': `https://dl.layarkaca21.vip/get/${slug}/`,
+                'origin': 'https://asdahsdkjajslkfbkaujsgfbjaeghfyjj76e8637e68723rhbfajkl.akurat.co',
+                'referer': `https://asdahsdkjajslkfbkaujsgfbjaeghfyjj76e8637e68723rhbfajkl.akurat.co/get/${slug}/`,
                 'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
                 'x-requested-with': 'XMLHttpRequest'
             }
